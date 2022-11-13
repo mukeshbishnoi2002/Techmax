@@ -1,0 +1,86 @@
+*{
+    font-weight: 'cabin' , sans-serif;
+}
+.encourage{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    line-height: 150%;
+    font-family: 'Cabin', sans-serif;
+   
+
+}
+.overview{
+    background-color: rgb(215, 215, 215, 0.17);
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.overview_p{
+    border-bottom-right-radius: 10px;
+    background-image: linear-gradient(-135deg, #611bdd 0%, #5e87eb 100%);
+    color: white;
+}
+.overview_p_radius{
+    border-bottom-right-radius: 10px;
+    box-shadow: -1px 3px 20px 0px rgb(82 90 101 / 10%);
+}
+.content{
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.counter, .project_mind{
+    background-image: url("banner-bg.jpg");
+    background-position: center;
+}
+.team_testimonial{
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+.team_p{
+    font-size: 19px;
+    line-height: 35px;
+}
+.card-title{
+    font-size: 18px;
+}
+.card-text, .card_btn, .footer_p{
+    font-size: 15px;
+    border-radius: 20px;    
+}
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-square-instagram, .fa-screwdriver-wrench, .fa-display, .fa-circle-nodes{
+    font-size: 25px;
+}
+.card-style{
+    box-shadow: 0px 2px 25px 0px rgb(110 110 110 / 12%);
+}
+
+@media screen and (max-width: 991px){
+    .encourage{
+        font-size: 1.8rem;
+       text-align: center;
+    }
+    .buttons{
+        display: none ;
+    }
+    .learn{
+        text-align: center;
+    }
+    .hero{
+        margin: auto;
+    }
+    .main_hero{
+        text-align: center;
+    }
+    .main_p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px){
+    .encourage{
+        font-size: 1.6rem;
+       text-align: center;
+    }
+    .main_p{
+        font-size: 14px;
+    }
+   
+}
